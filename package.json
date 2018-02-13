@@ -1,0 +1,34 @@
+{
+  "name": "makeselfiesgreatagain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "gulp default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disregardingstandards/makeselfiesgreatagain.git"
+  },
+  "author": "disregarding standards",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/disregardingstandards/makeselfiesgreatagain/issues"
+  },
+  "homepage": "https://github.com/disregardingstandards/makeselfiesgreatagain#readme",
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.3.1",
+    "jquery.facedetection": "^2.0.3"
+  }
+}
