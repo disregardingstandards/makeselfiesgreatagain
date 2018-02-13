@@ -1,0 +1,46 @@
+@import "../node_modules/bulma/bulma";
+
+$maincolor: #83BCFF;
+$softcolor: #E1EFF6;
+
+body {
+  color: $softcolor;
+}
+
+p {
+  font-style: italic;
+  color: $softcolor;
+}
+
+.button:hover {
+  color: $maincolor;
+  border-color: $maincolor;;
+}
+
+.footer {
+  background: #fff;
+  padding-bottom: 3rem;
+
+  a {
+    color: $maincolor;
+  }
+
+  p {
+    font-style: initial;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    color: $softcolor;
+  }
+}
+
+nav.navbar {
+  background: transparent;
+
+  .navbar-item, .navbar-link {
+    color: $maincolor;
+  }
+}
+
+.trump-img {
+  position: absolute;
+}
