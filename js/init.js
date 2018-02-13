@@ -1,6 +1,5 @@
 ;(function(){
   $("#selfie-input").change(function() {
-    console.log('b');
     readURL(this);
   });
 
